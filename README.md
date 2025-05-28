@@ -1,3 +1,63 @@
+# Django Polls App
+
+Este é um projeto de aplicativo de enquetes desenvolvido com Django, seguindo o tutorial oficial do Django.
+
+## Funcionalidades
+
+- Sistema de votação
+- Interface administrativa
+- Visualização de resultados
+- Autenticação de usuários
+
+## Requisitos
+
+- Python 3.x
+- Django 5.2.1
+
+## Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Gustavocstroo/testee.git
+cd testee
+```
+
+2. Crie um ambiente virtual e ative-o:
+```bash
+python -m venv venv
+.\venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux/Mac
+```
+
+3. Instale as dependências:
+```bash
+pip install django
+```
+
+4. Execute as migrações:
+```bash
+python manage.py migrate
+```
+
+5. Crie um superusuário:
+```bash
+python manage.py createsuperuser
+```
+
+6. Inicie o servidor:
+```bash
+python manage.py runserver
+```
+
+## Uso
+
+- Acesse http://127.0.0.1:8000/admin/ para gerenciar enquetes
+- Acesse http://127.0.0.1:8000/polls/ para votar nas enquetes
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com o projeto. Abra uma issue ou envie um pull request.
+
 # Django Tutorial Polls App
 
 This repository contains the complete code for the [Django](https://www.djangoproject.com/) project's [tutorial](https://docs.djangoproject.com/en/2.1/intro/tutorial01/) `polls` app. The code should mirror the code you've written at the end of [Part 7](https://docs.djangoproject.com/en/2.1/intro/tutorial07/). 
